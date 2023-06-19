@@ -1,11 +1,11 @@
-About r-hues
-============
+About r-hues-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-hues-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/johnbaums/hues
 
 Package license: LGPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-hues-feedstock/blob/main/LICENSE.txt)
 
 Summary: Creating effective colour palettes for figures is challenging. This package generates and plot palettes of optimally distinct colours in perceptually uniform colour space, based on 'iwanthue' <http://tools.medialab.sciences-po.fr/iwanthue/>. This is done through k-means clustering of CIE Lab colour space, according to user-selected constraints on hue, chroma, and lightness.
 
