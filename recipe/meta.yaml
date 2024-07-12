@@ -1,6 +1,5 @@
 {% set version = '0.2.0' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-hues
@@ -13,8 +12,7 @@ source:
   sha256: ddb9472d540605f8d4f6c14e6ec6a5f352c19deb04cac04ab8b65a13983f5118
 
 build:
-  merge_build_host: True  # [win]
-  number: 2
+  number: 3
   noarch: generic
   rpaths:
     - lib/R/lib/
